@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>May Deypalubos</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+            <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+        <div class="collapse navbar-collapse" id="mainNav">
+            <div class="navbar-nav ">
+              <a class="nav-item nav-link" href="#home">Home</a>
+              <a class="nav-item nav-link" href="#about">About</a>
+              <a class="nav-item nav-link" href="#projects">Projects</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </div><!--end of mainNav-->
+    </div><!--end of container-->
+  </nav>
+
+   <div class="container-fluid homePage" id="home">
+     <div class="container homePage-content">
+       <h1>Hello, I'm</h1>
+       <h1>MAY DEYPALUBOS</h1>
+       <h5>Electronics Engineer/Frontend Web Developer</h5>
+     </div>
+   </div> <!--end of homePage-->
+
+   <section class="container aboutSection" id="about">
+     <div class="about-content">
+       <h3>About Me</h3>
+       <div class="bar"></div>
+       <div class="row">
+          <div class="col-md-6 profile">
+                <img class="img-fluid" src="img/mypic.png" alt="">    
+            <div class="profile-content">
+              <p>Hi, I'm May. I'm a self taught frontend web developer.</p>
+              <p>I have a background in Electronics and Communication Engineering with 4 years' experience in Technical and Customer Support and passion for web development. As Donald Glover put it perfectly,
+                  "Coding is the ultimate building blocks for creating in the modern age".
+              <p>I'm looking forward with great excitement to become part of an amazing community of coders who are creating, developing products,
+                  and work tirelessly in innovating every users digital experiences.</p>
+                
+            </div>           
+          </div> <!--end of profile-->
+          <div class="col-md-6 skillSet" id="skills">
+              <div class="skillBox" >
+                  <p>HTML</p>
+                  <p>90%</p>
+                  <div class="skill" data-percent="90%">
+                  <div class="skill_level"></div>
+              </div>
+              <div class="skillBox">
+                  <p>CSS</p>
+                  <p>90%</p>
+                  <div class="skill" data-percent="90%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>Bootstrap</p>
+                  <p>80%</p>
+                  <div class="skill" data-percent="80%">
+                    <div class="skill_level" ></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>SASS</p>
+                  <p>80%</p>
+                  <div class="skill" data-percent="80%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>JavaScript</p>
+                  <p>80%</p>
+                  <div class="skill" data-percent="80%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>JQuery</p>
+                  <p>75%</p>
+                  <div class="skill" data-percent="75%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>React</p>
+                  <p>80%</p>
+                  <div class="skill" data-percent="80%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>
+              <div class="skillBox">
+                  <p>WordPress</p>
+                  <p>70%</p>
+                  <div class="skill" data-percent="70%">
+                    <div class="skill_level"></div>
+                  </div>
+              </div>          
+          </div> 
+       </div> <!--end of row-->
+       <div class="container text-center devTools-container">
+            <h4>TOOLS I USE</h4>
+            <div class="devTools">
+                <div>
+                    <img src="img/vscode.png" alt="">
+                    <p>VISUAL STUDIO CODE</p>
+                </div>
+                <div>
+                    <img src="img/figma.png" alt="">
+                    <p>FIGMA</p>
+                </div>
+            </div>
+       </div>  <!--end of devTools-container-->     
+     </div> <!--end of about-content-->
+      <div class="download-btn">
+          <button class="btn btn-primary">
+            <a href="./files/May_Deypalubos_CV.pdf" download="MayDeypalubos_CV.pdf">Download Resume</a>
+          </button>
+       </div> <!--end of download-btn-->
+  </section> 
+
+  <section class="container-fluid projectsSection" id="projects">
+    <h3>Projects</h3>
+    <div class="bar"></div>
+    <div class="container projects-container">
+        <div class="card">
+            <img src="img/tvApp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">TV Series App</h5>
+              <p class="card-text">An app to search information about TV series. Provide details of searched keyword such as genre, episodes, status, synopsis and a link to the official website.</p>
+              <a href="https://maydeypalubos.github.io/myTVseriesApp/#/" target="_blank" >View App</i></a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Simon.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Simon Game</h5>
+              <p class="card-text">A take on a popular memory game in the 80's. Players have to follow the sequence generated by the game.
+              </p>
+              <a href="https://maydeypalubos.github.io/Simon-Game/" target="_blank">View App</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/tictactoe.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tic Tac Toe</h5>
+              <p class="card-text">A classic game of X's and O's versus the computer.</p>
+              <a href="https://maydeypalubos.github.io/Tic-Tac-Toe/" target="_blank">View App</a>
+            </div>
+        </div>   
+        <div class="card">
+          <img src="img/weatherApp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">Displays current local weather. User is also able to change location and toggle between Fahrenheit and Celcius.
+                </p>
+            <a href="https://maydeypalubos.github.io/Weather-App/" target="_blank">View App</a>
+          </div>
+        </div>
+        <div class="card">
+            <img src="img/Pomodoro.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pomodoro Timer</h5>
+              <p class="card-text">A time management tool inspired by the Pomodoro Technique where users can break down work using break intervals.</p>
+              <a href="https://maydeypalubos.github.io/Pomodoro-Timer/" target="_blank">View App</a>
+            </div>
+        </div>
+        <div class="card">
+          <img src="img/twitchChannel.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Twitch Channel Tracker</h5>
+            <p class="card-text">An app to track followed Twitch channels. Displays current stream thumbnail if user is online.</p>
+            <a href="https://maydeypalubos.github.io/Twitch-TV-App/" target="_blank">View App</a>
+          </div>
+      </div>     
+    </div> <!--end of projects-container-->
+  </section> <!--end of projects-->
+  
+  <!--parallax effect-->
+  <!-- <div class="parallax-image"></div>  -->
+
+
+  <section class="contactSection" id="contact">
+    <div class=" container contact-content">
+        <h3>CONTACT</h3>
+        <div class="bar"></div>
+        <p>I would love to hear from you.</p>
+        <ul>
+          <li><i class="fas fa-envelope-open-text"></i> mayanndeypalubos@gmail.com</li>
+          <li><i class="fas fa-mobile-alt"></i> +791502185125</li>
+          <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+        </ul>
+    </div> <!--end of contact-content-->
+  </section>
+
+  <footer>
+      <ul>
+        <a href="https://codepen.io/MayDeypalubos/" target="_blank"><li><i class="fab fa-codepen"></i></li></a>
+        <a href="https://www.linkedin.com/in/mayann-deypalubos/" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+        <a href="https://github.com/MayDeypalubos" target="_blank"><li><i class="fab fa-github"></i></li></a>
+        <a href="https://www.freecodecamp.org/maydeypalubos" target="_blank"><li><i class="fab fa-free-code-camp"></i></li></a>
+      </ul>
+      <p class="text-muted">MAY DEYPALUBOS &copy; 2019</p>
+  </footer>
+
+   
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+</html>
