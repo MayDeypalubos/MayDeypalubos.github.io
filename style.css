@@ -184,10 +184,17 @@ h3, h4{
 }
 /* Projects */
 .projectsSection{
-  background-color:#EBECED;
+  background-color:#171719;
   width:100%;
   margin:auto;
   font-family:'PT Sans', sans-serif;
+}
+.projectsSection h3{
+  color:var(--pearl);
+}
+
+.projectsSection .bar{
+  background-color:var(--pearl);
 }
 .projects-container{
   display:grid;
@@ -199,9 +206,6 @@ h3, h4{
 }
 .card{
  width:18rem;
- -webkit-box-shadow: 5px 5px 5px 0px rgba(54,54,54,0.45);
- -moz-box-shadow: 5px 5px 5px 0px rgba(54,54,54,0.45);
- box-shadow: 5px 5px 5px 0px rgba(54,54,54,0.45);
 }
 .card a{
   text-decoration:none;
