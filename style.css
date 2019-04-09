@@ -219,7 +219,7 @@ h3, h4{
 /* Contact Section */
 .contactSection{
   position: relative;
-  background-image:url("img/bg-image.png");
+  background-image:url("img/bg-image-large.png");
   background-position: center center;
   background-size: cover;
   -webkit-background-size: cover;
